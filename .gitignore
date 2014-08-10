@@ -1,36 +1,37 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+#
+# Code::Blocks
+#
 
-# Folder config file
-Desktop.ini
+-*.depend
+-*.layout
+-.objs/
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+#
+# Sauerbraten
+#
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+*.a
+*.dll
+*.DLL
+*.gch
+*.html
+*.o
+*.res
+*.svn
+bin64/
+bin/*.dll
+bin/*.txt
+bin_unix/*.txt
+data/*
+docs/*
+packages/*
+rpg*
+sauerbraten*
+server*
+src/
+*update*
+*linux*
+*windows*
+*sauer_client*
+*sauer_server*
 
-# =========================
-# Operating System Files
-# =========================
-
-# OSX
-# =========================
-
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Icon must ends with two \r.
-Icon
-
-# Thumbnails
-._*
-
-# Files that might appear on external disk
-.Spotlight-V100
-.Trashes
